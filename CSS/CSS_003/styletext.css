@@ -1,0 +1,18 @@
+/* html{
+    font-size: 10px;
+} */
+h1{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    color:red;
+    text-transform: capitalize;
+}
+li{
+    text-decoration: underline ;
+    text-align: left;
+}
