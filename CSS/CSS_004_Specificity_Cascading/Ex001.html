@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specificity and Cascading</title>
+    <style>
+      .special {
+        color: red;
+      }
+      p {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>To learn about Specificity and Cascading</h1>
+    <div>
+      A class is rated as being more specific, as in having more specificity
+      than the element selector, so it cancels the other conflicting style
+      declaration.
+    </div>
+    <p class="special">What color am I? I have CSS class name special</p>
+    <p>I do not have CSS class</p>
+  </body>
+</html>

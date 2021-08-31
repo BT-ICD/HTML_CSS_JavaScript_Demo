@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To learn about Specificity and Cascading</title>
+    <style>
+      p {
+        color: red;
+      }
+      p {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>To learn about Specificity and Cascading</h1>
+    <h2>Cascading rule</h2>
+    <div>
+      We have two rules for the p selector, but the paragraph text will be blue.
+      Because the declaration that sets the paragraph text to blue appears later
+      in the stylesheet. Later styles replace conflicting styles that appear
+      earlier in the stylesheet. This is the cascade rule.
+    </div>
+    <p>We will do it</p>
+    <p>Web Development</p>
+  </body>
+</html>
