@@ -1,0 +1,65 @@
+.backimg{
+    outline: 2px solid black;
+    background-image: url('../../Images/BackgroundImages/twitter-patterns-2.jpg');
+    /* background-size: 70%; */
+    background-repeat: no-repeat;
+    background-color:lightblue;
+    /* background-position: 10% 5%  ; */
+    /* background-position: bottom left  ; */
+    background-position: center center  ;
+   }
+   .backimg1{
+    outline: 2px solid black;
+    background-image: url('../../Images/BackgroundImages/Baby.jpg');
+   }
+   /* To learn about: background-repeat */
+   .backimg2{
+    outline: 2px solid black;
+    background-image: url('../../Images/BackgroundImages/Baby.jpg');
+    /* The background-repeat property sets if/how a background image will be repeated. By default, a background-image is repeated both vertically and horizontally. */
+    /*  
+        repeat - The background image is repeated both vertically and horizontally.  The last image will be clipped if it does not fit. This is default
+        repeat-x - The background image is repeated only horizontally
+        repeat-y - The background image is repeated only vertically
+        no-repeat - The background-image is not repeated. The image will only be shown once
+        space - The background-image is repeated as much as possible without clipping. The first and last images are pinned to either side of the element, and whitespace is distributed evenly between the images
+        round - The background-image is repeated and squished or stretched to fill the space (no gaps)
+
+    */
+    background-repeat: repeat; 
+   }
+    /* To learn about: background-color */
+    .backimg3{
+        outline: 2px solid black;
+        background-image: url('../../Images/BackgroundImages/Baby.jpg');
+        background-repeat: no-repeat;
+        background-color: lightblue; 
+       }
+         /* To learn about: background-position */
+         /* The background-position property sets the starting position of a background image. 
+            By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.
+            Default value: 	0% 0%
+         */
+    .backimg4{
+        outline: 2px solid black;
+        background-image: url('../../Images/BackgroundImages/Baby.jpg');
+        background-repeat: no-repeat;
+        background-color: lightblue; 
+        background-position: top right;
+       }
+       /* To learn about: background-size Property */
+       /* 
+        auto - Default value. The background image is displayed in its original size
+        length - Sets the width and height of the background image. The first value sets the width, the second value sets the height. If only one value is given, the second is set to "auto".
+        percentage - Sets the width and height of the background image in percent of the parent element. The first value sets the width, the second value sets the height. If only one value is given, the second is set to "auto"
+        cover  - Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges
+        
+       */
+       .backimg5{
+        outline: 2px solid black;
+        background-image: url('../../Images/BackgroundImages/Baby.jpg');
+        background-repeat: no-repeat;
+        background-color: lightblue; 
+        background-position: top right;
+        background-size: 10%;
+       }
